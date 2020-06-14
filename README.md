@@ -49,14 +49,23 @@ export OCWA_TOKEN="YOUR_API_TOKEN"
 ```
 You can use a name other than ```OCWA_TOKEN```, just be sure to remember it for later.
 
-Refresh.
+Refresh your environment variables with the following command:
 ```
 source ~/.bashrc
 ```
 
 ### MDOS (Windows):
 
-Honestly, I don't know.
+Start by closing Command Prompt.
+
+In the naviagtion bar, search "Edit the system environment variables" and select the option.
+
+Under the "Advanced" tab, click on the "Environment Variables..." button.
+
+Create a new System variable by clicking the "New..." button. This System Environment variable will be your token. Name the Variable name: OCWA_TOKEN, or you can use a different name, just be sure to remember it for later. Then set the Variable value to the Token given to you by the administation upon your request.
+Click "OK" and then click "OK" in the Advanced tab.
+
+Reopen Command Prompt and navigate yourself to the resently clone github repository "ocw-api-wrapper".
 
 ---
 
